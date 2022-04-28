@@ -1,0 +1,9 @@
+.intro {
+  background-color: rgb(208, 138, 223);
+  min-height: 50vh;
+  width: 100%;
+}
+
+.intro#dark {
+  background-color: rgb(70, 12, 82);
+}

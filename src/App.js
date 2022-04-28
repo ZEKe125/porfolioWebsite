@@ -10,30 +10,29 @@ import {
   theme,
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
+import Hero from './components/hero/Hero';
 import { Logo } from './Logo';
+import Intro from './components/intro/Intro';
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
       <Box textAlign="center" fontSize="xl">
-        <Grid minH="100vh" p={3}>
-          <ColorModeSwitcher justifySelf="flex-end" />
-          <VStack spacing={8}>
-            <Logo h="40vmin" pointerEvents="none" />
-            <Text>
-              Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
-            </Text>
-            <Link
-              color="teal.500"
-              href="https://chakra-ui.com"
-              fontSize="2xl"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn Chakra
-            </Link>
-          </VStack>
-        </Grid>
+        {/* <Logo h="40vmin" pointerEvents="none" /> */}
+        <Hero />
+        <Intro />
+        <Text>
+          Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
+        </Text>
+        <Link
+          color="teal.500"
+          href="https://github.com/ZEKe125"
+          fontSize="2xl"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Github
+        </Link>
       </Box>
     </ChakraProvider>
   );

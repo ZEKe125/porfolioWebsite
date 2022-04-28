@@ -1,0 +1,9 @@
+.hero {
+  background-color: yellowgreen;
+  min-height: 50vh;
+  width: 100%;
+}
+
+.hero#dark {
+  background-color: rgb(70, 94, 22);
+}
