@@ -11,19 +11,21 @@ import {
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import Hero from './components/hero/Hero';
-import { Logo } from './Logo';
+
 import Intro from './components/intro/Intro';
+import Projects from './components/projects/Projects';
+import Navbar from './components/navbar/Navbar';
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
       <Box textAlign="center" fontSize="xl">
         {/* <Logo h="40vmin" pointerEvents="none" /> */}
+        <Navbar />
         <Hero />
         <Intro />
-        <Text>
-          Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
-        </Text>
+        <Projects />
+
         <Link
           color="teal.500"
           href="https://github.com/ZEKe125"

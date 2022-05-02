@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  overflow: hidden;
+  height: 60px;
+  background-color: darkslategray;
+  background-image: linear-gradient(
+    to right,
+    var(--chakra-colors-cyan-700),
+    var(--chakra-colors-teal-500)
+  );
+  box-shadow: 15px;
+  font-weight: 400;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  align-items: center;
+}
+
+.navbar .chakra-code {
+  font-size: 25px !important;
+}
+
+/* #dark .navbar {
+  background-image: linear-gradient(
+    to right,
+    var(--chakra-colors-gray-700),
+    var(--chakra-colors-teal-500)
+  );
+} */
+
+.text {
+  margin-left: 2%;
+}
+
+Button {
+  width: 10vw !important;
+  margin-left: 5vw !important;
+  display: flex;
+  justify-self: '' !important;
+}
