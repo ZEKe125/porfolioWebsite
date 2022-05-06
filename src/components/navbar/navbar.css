@@ -1,6 +1,6 @@
 .navbar {
-  display: flex;
-  overflow: hidden;
+  flex-direction: row;
+  overflow: auto;
   height: 60px;
   background-color: darkslategray;
   background-image: linear-gradient(
@@ -8,33 +8,56 @@
     var(--chakra-colors-cyan-700),
     var(--chakra-colors-teal-500)
   );
-  box-shadow: 15px;
   font-weight: 400;
   position: fixed;
   top: 0;
   width: 100%;
   align-items: center;
+  /* text-align: center; */
+}
+
+.navbar a {
+  float: left;
+  /* justify-content: center !important; */
+  /* justify-items: center center; */
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.navbar .logo {
+  float: left;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 11px;
+  text-decoration: none;
+
+  /* line-height: 25px; */
+}
+
+.navbar a:hover {
+  background-color: rgb(6, 82, 65);
 }
 
 .navbar .chakra-code {
   font-size: 25px !important;
 }
 
-/* #dark .navbar {
-  background-image: linear-gradient(
-    to right,
-    var(--chakra-colors-gray-700),
-    var(--chakra-colors-teal-500)
-  );
-} */
-
-.text {
+.navbar .logo {
   margin-left: 2%;
 }
 
-Button {
-  width: 10vw !important;
-  margin-left: 5vw !important;
-  display: flex;
-  justify-self: '' !important;
+.buttons {
+  float: right;
+}
+
+.icon {
+  display: inline-block;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  font-size: 30px;
 }

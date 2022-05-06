@@ -8,8 +8,7 @@ export default function Hero() {
   const color = useColorMode();
   return (
     <Grid className="hero" id={color.colorMode}>
-      <ColorModeSwitcher justifySelf="flex-end" />
-      <Text>
+      <Text className="text">
         Zeke's <Code>{`<Portfolio/>`}</Code>
       </Text>
     </Grid>
