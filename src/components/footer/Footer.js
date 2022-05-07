@@ -1,21 +1,21 @@
 import React from 'react';
 import { Grid, Text, Code } from '@chakra-ui/react';
-import './projects.css';
+import './footer.css';
 
-function Projects() {
+function Footer() {
   return (
     <Grid
-      className="projects"
-      id="intro"
+      className="footer"
+      id="footer"
       // style={{ backgroundImage: `url(${mySvg})` }}
     >
       <div className="title">
         <Text>
-          <Code>{`<Projects />`}</Code>
+          <Code>{`<Footer />`}</Code>
         </Text>
       </div>
     </Grid>
   );
 }
 
-export default Projects;
+export default Footer;

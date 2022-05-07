@@ -38,6 +38,9 @@
 
   /* line-height: 25px; */
 }
+.navbar .logo:hover {
+  background-color: rgb(6, 82, 65);
+}
 
 .navbar a:hover {
   background-color: rgb(6, 82, 65);

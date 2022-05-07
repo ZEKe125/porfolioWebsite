@@ -1,12 +1,33 @@
 .intro {
   background-image: url(../../../src/assets/neon_hex.svg);
-  /* background-repeat: stretch; */
   background-size: cover;
   background-color: rgb(0, 0, 0);
   min-height: 90vh;
   width: 100%;
 }
+.title .chakra-code {
+  font-size: 5vh !important;
+  margin: 1%;
+}
 
-.intro#dark {
+.buttons {
+  text-align: center;
+}
+.intro .buttons a {
+  /* height: 10vw;
+  width: 10vw; */
+  margin: 9vw;
+  border-radius: 4%;
+}
+
+.intro .buttons .icon {
+  font-size: 10vw;
+}
+
+.intro .buttons a:hover {
+  background-color: rgb(6, 82, 65);
+}
+
+.intro #dark {
   /* background-color: rgb(70, 12, 82); */
 }

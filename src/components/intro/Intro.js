@@ -1,18 +1,37 @@
-import { ColorModeProvider, Grid, theme } from '@chakra-ui/react';
+import { Grid, Text, Code, Center } from '@chakra-ui/react';
 import React from 'react';
 import './intro.css';
-import { useColorMode } from '@chakra-ui/react';
-import mySvg from '../../../src/assets/intro_bg.svg';
+import {
+  FaBeer,
+  FaGithub,
+  FaLinkedin,
+  FaLinkedinIn,
+  FaReact,
+} from 'react-icons/fa';
+import { Flex, Spacer } from '@chakra-ui/react';
+// import mySvg from '../../../src/assets/intro_bg.svg';
 
 function Intro() {
-  const color = useColorMode();
   return (
-    <Grid
-      className="intro"
-      id={color.colorMode}
-      // style={{ backgroundImage: `url(${mySvg})` }}
-    >
-      Intro
+    <Grid className="intro" id="intro">
+      <div className="title">
+        <Text>
+          <Code>{`<Intro />`}</Code>
+        </Text>
+      </div>
+      <Flex color="white" className="buttons">
+        <Center>
+          <a href="https://github.com/ZEKe125" target="_blank">
+            <FaGithub className="icon" />
+          </a>
+          <a>
+            <FaLinkedin className="icon" />
+          </a>
+          <a>
+            <FaReact className="icon" />
+          </a>
+        </Center>
+      </Flex>
     </Grid>
   );
 }

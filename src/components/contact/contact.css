@@ -1,0 +1,11 @@
+.contact {
+  background-image: url(../../../src/assets/blob-scene-haikei.svg);
+  background-size: cover;
+  background-color: rgb(0, 0, 0);
+  min-height: 90vh;
+  width: 100%;
+}
+.title .chakra-code {
+  font-size: 5vh !important;
+  margin: 1%;
+}

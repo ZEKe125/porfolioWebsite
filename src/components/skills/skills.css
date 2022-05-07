@@ -1,0 +1,32 @@
+.skills {
+  background-image: url(../../../src/assets/circle-scatter-haikei.svg);
+  background-size: cover;
+  background-color: rgb(0, 0, 0);
+  min-height: 90vh;
+  width: 100%;
+}
+.title .chakra-code {
+  font-size: 5vh !important;
+  margin: 1%;
+}
+
+.skills .img {
+  display: inline;
+  height: 10vw !important;
+  width: 10vw !important;
+  min-height: 60px !important;
+  min-width: 60px !important;
+  background-image: '';
+  margin: 1vw;
+  padding: 1%;
+}
+
+.skills .img:hover {
+  background-color: rgb(227, 185, 255);
+  opacity: 0.9;
+  border-radius: 5%;
+}
+
+.skills #dark {
+  /* background-color: rgb(70, 12, 82); */
+}

@@ -1,0 +1,11 @@
+.footer {
+  background-image: url(../../../src/assets/footer.svg);
+  background-size: cover;
+  background-color: rgb(0, 0, 0);
+  min-height: 45vh;
+  width: 100%;
+}
+.title .chakra-code {
+  font-size: 5vh !important;
+  margin: 1%;
+}
