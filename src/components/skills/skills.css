@@ -1,5 +1,5 @@
 .skills {
-  background-image: url(../../../src/assets/circle-scatter-haikei.svg);
+  background-image: url(../../../src/assets/blob1.svg);
   background-size: cover;
   background-color: rgb(0, 0, 0);
   min-height: 90vh;
@@ -16,7 +16,6 @@
   width: 10vw !important;
   min-height: 60px !important;
   min-width: 60px !important;
-  background-image: '';
   margin: 1vw;
   padding: 1%;
 }

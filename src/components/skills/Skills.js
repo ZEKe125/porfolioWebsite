@@ -64,14 +64,39 @@ function Skills() {
             />
           </a>
         </Box>
-        <Box></Box>
+        <Box>
+          <a href="#">
+            <Image
+              className="img"
+              objectFit="scale-down"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png"
+              alt="c++.js"
+            />
+          </a>
+          <a href="#">
+            <Image
+              className="img"
+              objectFit="scale-down"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png"
+              alt="c++.js"
+            />
+          </a>
+          <a href="#">
+            <Image
+              className="img"
+              objectFit="scale-down"
+              src="https://cdn-icons-png.flaticon.com/512/226/226777.png"
+              alt="java.js"
+            />
+          </a>
+        </Box>
         <Box>
           <a href="#">
             <Image
               className="img"
               objectFit="scale-down"
               src="https://ui-lib.com/blog/wp-content/uploads/2021/12/nextjs-boilerplate-logo.png"
-              alt="react.js"
+              alt="next.js"
             />
           </a>
           <a href="#">
@@ -90,24 +115,57 @@ function Skills() {
               className="img"
               objectFit="scale-down"
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png"
-              alt="react.js"
+              alt="Bootstrap.js"
             />
           </a>
 
           <a href="#">
-            {' '}
             <Image
               className="img"
               objectFit="scale-down"
               src="https://mui.com/static/logo.png"
-              alt="react.js"
+              alt="materialUI.js"
             />
           </a>
           <a href="#">
             <Logo className="img" />
           </a>
         </Box>
-        <Box></Box>
+        <Box>
+          {' '}
+          <a href="#">
+            <Image
+              className="img"
+              objectFit="scale-down"
+              src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+              alt="figma"
+            />
+          </a>
+          <a href="#">
+            <Image
+              className="img"
+              objectFit="scale-down"
+              src="https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png?20200221181224"
+              alt="Notion"
+            />
+          </a>
+          <a href="#">
+            <Image
+              className="img"
+              objectFit="scale-down"
+              src="https://github.githubassets.com/images/modules/logos_page/Octocat.png"
+              alt="github"
+            />
+          </a>
+          <a href="#">
+            <Image
+              className="img"
+              objectFit="scale-down"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Adobe_Photoshop_Express_logo.svg/2101px-Adobe_Photoshop_Express_logo.svg.png"
+              alt="photoshop"
+            />
+          </a>
+        </Box>
       </SimpleGrid>
     </Grid>
   );
