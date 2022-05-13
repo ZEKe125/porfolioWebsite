@@ -10,18 +10,60 @@
   margin: 1%;
 }
 
+.intro .img {
+  display: inline-block;
+  width: 20vw;
+  margin: 2vw;
+  padding: 2vw;
+  min-width: 160px;
+}
+
+.profile {
+  /* display: inline-block; */
+
+  width: 15vw;
+  height: 15vw;
+  margin: 2vw;
+  /* padding: 2vw; */
+  min-width: 160px;
+  min-height: 160px;
+  border-radius: 50%;
+  background: url('../../assets/profile.png') no-repeat;
+  background-size: contain;
+}
+
+.profile:hover {
+  background: url('../../assets/profile2.png') no-repeat;
+  background-size: contain;
+}
+
+h1.title {
+  font-size: 3vw !important;
+  margin-left: 2vw;
+  /* text-align: center; */
+}
+
+h1.body {
+  font-size: 3vw !important;
+  margin-left: 2vw;
+  margin: 1vw;
+  text-align: center;
+}
+
 .buttons {
   text-align: center;
 }
 .intro .buttons a {
-  /* height: 10vw;
-  width: 10vw; */
-  margin: 9vw;
   border-radius: 4%;
 }
 
 .intro .buttons .icon {
   font-size: 10vw;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  min-width: 40px;
 }
 
 .intro .buttons a:hover {

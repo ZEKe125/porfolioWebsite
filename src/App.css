@@ -1,7 +1,5 @@
 .App {
   background-image: url(../src/assets/waves.svg);
   background-size: contain;
-  /* background-color: rgb(0, 0, 0);
-  min-height: 90vh; */
   width: 100%;
 }
