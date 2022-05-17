@@ -41,12 +41,27 @@ function Intro() {
           </Center>
         </Box>
         <Box>
-          <h1 className="title">Interests</h1>
-          <h1 className="body"></h1>
+          <h1 className="title">
+            <strong>Interests:</strong>
+          </h1>
+          <h1 className="body">
+            {' '}
+            I'm interested in Remote Opportunities working in Frontend Web
+            Developmet. Preferably <strong>React.js</strong>, but im open to
+            other frameworks.
+          </h1>
+          <br></br>
+          <h1 className="body">
+            Currently, I'm learning Server-side rendering with{' '}
+            <strong>Next.js</strong>, and avdvanced animations using{' '}
+            <strong>Framer Motion.</strong>
+          </h1>
           <h1 className="body"> </h1>
         </Box>
         <Box>
-          <h1 className="title">Education: </h1>
+          <h1 className="title">
+            <strong>Education: </strong>
+          </h1>
           <h1 className="body">University of Califronia, Merced</h1>
           <h1 className="body">B.S Computer Science and Enginnering </h1>
         </Box>
@@ -62,8 +77,8 @@ function Intro() {
             </a>
           </Center>
         </Box>
-        <Box>hi</Box>
-        <Box>hello </Box>
+        {/* <Box>hi</Box>
+        <Box>hello </Box> */}
       </SimpleGrid>
 
       <SimpleGrid color="white" className="buttons">

@@ -1,5 +1,6 @@
 .navbar {
   flex-direction: row;
+  flex-wrap: nowrap;
   overflow: auto;
   height: 60px;
   background-color: darkslategray;
@@ -12,20 +13,18 @@
   position: fixed;
   top: 0;
   width: 100%;
-  align-items: center;
+  align-items: center !important;
   /* text-align: center; */
 }
 
 .navbar a {
   float: left;
-  /* justify-content: center !important; */
-  /* justify-items: center center; */
   color: rgb(255, 255, 255);
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 23px;
   border-radius: 4px;
 }
 
@@ -54,13 +53,17 @@
   margin-left: 2%;
 }
 
-.buttons {
-  float: right;
+.navbar .buttons {
+  position: absolute;
+  right: 1vw;
+  top: 4px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
 .icon {
-  display: inline-block;
-  margin-left: 3vw;
-  margin-right: 3vw;
+  display: flexbox;
+  margin-right: 1vw;
   font-size: 30px;
 }

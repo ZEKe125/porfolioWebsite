@@ -1,5 +1,6 @@
 import React from 'react';
 import { Grid, Text, Code } from '@chakra-ui/react';
+import ContactForm from './ContactForm';
 import './contact.css';
 
 function Contact() {
@@ -10,6 +11,7 @@ function Contact() {
           <Code>{`<Contact-Me />`}</Code>
         </Text>
       </div>
+      <ContactForm/>
     </Grid>
   );
 }
