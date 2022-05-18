@@ -1,48 +1,45 @@
 .navbar {
-  flex-direction: row;
-  flex-wrap: nowrap;
   overflow: auto;
   height: 60px;
   background-color: darkslategray;
   background-image: linear-gradient(
     to right,
-    var(--chakra-colors-cyan-700),
-    var(--chakra-colors-teal-500)
+    var(--chakra-colors-cyan-800),
+    var(--chakra-colors-pink-800)
   );
   font-weight: 400;
   position: fixed;
   top: 0;
   width: 100%;
   align-items: center !important;
+  z-index: 1;
   /* text-align: center; */
 }
 
 .navbar a {
-  float: left;
+  display: flex;
+  align-items: center;
   color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 16px;
-  line-height: 23px;
   border-radius: 4px;
+  height: 100%;
+  width: 100%;
 }
 
 .navbar .logo {
-  float: left;
+  position: absolute;
+  left: 1vw;
   color: rgb(255, 255, 255);
-  text-align: center;
+  text-align: center !important;
+  align-items: center;
+  height: 100%;
   padding: 11px;
-  text-decoration: none;
-
-  /* line-height: 25px; */
 }
 .navbar .logo:hover {
   background-color: rgb(6, 82, 65);
 }
 
 .navbar a:hover {
-  background-color: rgb(6, 82, 65);
+  background-color: rgb(73, 6, 82);
 }
 
 .navbar .chakra-code {
@@ -54,16 +51,22 @@
 }
 
 .navbar .buttons {
+  display: flex;
+  flex-grow: inherit;
   position: absolute;
   right: 1vw;
-  top: 4px;
-  flex-direction: row;
-  flex-wrap: nowrap;
   align-items: center;
+  height: 100%;
 }
 
 .icon {
-  display: flexbox;
-  margin-right: 1vw;
+  margin-right: 2.5vw;
+  margin-left: 2.5vw;
   font-size: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar .buttons {
+    display: none;
+  }
 }

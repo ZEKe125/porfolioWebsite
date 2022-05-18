@@ -9,17 +9,7 @@ import {
 } from '@chakra-ui/react';
 import React from 'react';
 import './intro.css';
-import {
-  FaBeer,
-  FaGithub,
-  FaLinkedin,
-  FaLinkedinIn,
-  FaReact,
-} from 'react-icons/fa';
-import { Flex, Spacer } from '@chakra-ui/react';
-import profile from '../../assets/profile.png';
-
-// import mySvg from '../../../src/assets/intro_bg.svg';
+import { FaGithub, FaLinkedin, FaReact } from 'react-icons/fa';
 
 function Intro() {
   return (
@@ -46,9 +36,9 @@ function Intro() {
           </h1>
           <h1 className="body">
             {' '}
-            I'm interested in Remote Opportunities working in Frontend Web
-            Developmet. Preferably <strong>React.js</strong>, but im open to
-            other frameworks.
+            I'm interested in Remote Opportunities in Frontend Web Developmet.
+            Preferably <strong>React.js</strong>, but I'm open to other
+            frameworks.
           </h1>
           <br></br>
           <h1 className="body">

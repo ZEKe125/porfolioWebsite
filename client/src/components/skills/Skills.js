@@ -14,9 +14,9 @@ function Skills() {
         </Text>
       </div>
 
-      <SimpleGrid columns={2} spacing={10} className="grid">
+      <SimpleGrid columns={2} spacing={5} className="grid">
         <Box>
-          <a href="#">
+          <a href="https://reactjs.org/" target={'_blank'}>
             <Image
               className="img"
               objectFit="scale-down"
@@ -32,6 +32,31 @@ function Skills() {
               alt="redux.js"
             />
           </a>
+        </Box>
+        <Box>
+          <a href="https://reactjs.org/" target={'_blank'}>
+            <h1>
+              <strong>React.js</strong>
+            </h1>
+          </a>
+          <p>
+            React is a JavaScript library for building user interfaces. React is
+            used to build single-page applications. React allows us to create
+            reusable UI components.
+          </p>
+          <h1>
+            <strong>Redux</strong>
+          </h1>
+          <p>
+            Redux is a JavaScript library for managing and centralizing
+            application state.
+          </p>
+        </Box>
+        <Box>
+          <h1>
+            <strong>Web Languages </strong>
+          </h1>
+          <p>In web developement I have worked with HTML5/CSS/javascript.</p>
         </Box>
 
         <Box>
@@ -64,6 +89,7 @@ function Skills() {
             />
           </a>
         </Box>
+
         <Box>
           <a href="#">
             <Image
@@ -91,23 +117,26 @@ function Skills() {
           </a>
         </Box>
         <Box>
-          <a href="#">
-            <Image
-              className="img"
-              objectFit="scale-down"
-              src="https://ui-lib.com/blog/wp-content/uploads/2021/12/nextjs-boilerplate-logo.png"
-              alt="next.js"
-            />
-          </a>
-          <a href="#">
-            {' '}
-            <Image
-              className="img"
-              objectFit="scale-down"
-              src="https://pagepro.co/blog/wp-content/uploads/2020/03/framer-motion.png"
-              alt="framerMotion"
-            />
-          </a>
+          <h1>
+            <strong>Other Languages</strong>
+          </h1>
+          <p>
+            I am familiar with c++, Python, and Java; with c++ being my
+            strongest Language.
+          </p>
+        </Box>
+
+        <Box>
+          <h1>
+            <strong>Familiar UI Libraries</strong>
+          </h1>
+          <p>
+            <strong>Bootstrap UI</strong>
+            <br />
+            <strong>Google's Material UI</strong>
+            <br />
+            <strong>Chakra UI</strong>
+          </p>
         </Box>
         <Box>
           <a href="#">
@@ -163,6 +192,53 @@ function Skills() {
               objectFit="scale-down"
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Adobe_Photoshop_Express_logo.svg/2101px-Adobe_Photoshop_Express_logo.svg.png"
               alt="photoshop"
+            />
+          </a>
+        </Box>
+        <Box>
+          <h1>
+            <strong>Other Dev&Design Tools</strong>
+          </h1>
+          <p>
+            <strong>Figma:</strong> App design & wireframes.
+            <br />
+            <strong>Notion:</strong> Project Management & Team Collaboration.
+            <br />
+            <strong>GitHub Desktop:</strong> version Control & repos
+            <br />
+            <strong>Photoshop</strong>: visual file editor.
+          </p>
+        </Box>
+        <Box>
+          <h1>
+            <strong>Currently Learning</strong>
+          </h1>
+          <p>
+            <strong>Next.js</strong> React framework that gives you building
+            blocks to create fast web applications by using server side
+            rendering.
+          </p>
+          <p>
+            <strong>Framer Motion</strong> is an advanced animation library that
+            makes creating animations easy.
+          </p>
+        </Box>
+        <Box>
+          <a href="#">
+            <Image
+              className="img"
+              objectFit="scale-down"
+              src="https://ui-lib.com/blog/wp-content/uploads/2021/12/nextjs-boilerplate-logo.png"
+              alt="next.js"
+            />
+          </a>
+          <a href="#">
+            {' '}
+            <Image
+              className="img"
+              objectFit="scale-down"
+              src="https://pagepro.co/blog/wp-content/uploads/2020/03/framer-motion.png"
+              alt="framerMotion"
             />
           </a>
         </Box>

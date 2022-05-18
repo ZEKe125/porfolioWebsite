@@ -1,4 +1,12 @@
 import React, { useState } from 'react';
+import { Center, Input, Stack, Button } from '@chakra-ui/react';
+import {
+  FormControl,
+  FormLabel,
+  FormErrorMessage,
+  FormHelperText,
+} from '@chakra-ui/react';
+import './contact.css';
 
 const ContactForm = () => {
   const [status, setStatus] = useState('Submit');
@@ -23,21 +31,29 @@ const ContactForm = () => {
     alert(result.status);
   };
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" required />
-      </div>
-      <div>
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" required />
-      </div>
-      <div>
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" required />
-      </div>
-      <button type="submit">{status}</button>
-    </form>
+    <div className="form-wrapper">
+      <Center>
+        <form onSubmit={handleSubmit}>
+          <Stack spacing={3}>
+            <FormControl isRequired>
+              <FormLabel htmlFor="name">Name</FormLabel>
+              <Input id="name" placeholder="Name" />
+            </FormControl>
+            <FormControl isRequired>
+              <FormLabel htmlFor="email">Email:</FormLabel>
+              <Input id="email" placeholder="Email" />
+            </FormControl>
+
+            <FormControl isRequired>
+              <FormLabel htmlFor="message">message:</FormLabel>
+              <Input id="message" placeholder="message" />
+            </FormControl>
+
+            <Button type="submit">{status}</Button>
+          </Stack>
+        </form>
+      </Center>
+    </div>
   );
 };
 

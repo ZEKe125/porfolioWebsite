@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box } from '@chakra-ui/react';
+// import { div } from '@chakra-ui/react';
 import Hero from './components/hero/Hero';
 import Intro from './components/intro/Intro';
 import Projects from './components/projects/Projects';
@@ -10,7 +10,7 @@ import Skills from './components/skills/Skills';
 
 function App() {
   return (
-    <Box className="App">
+    <div className="App">
       <Navbar />
       <Hero />
       <Intro />
@@ -18,7 +18,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
-    </Box>
+    </div>
   );
 }
 

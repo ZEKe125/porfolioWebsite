@@ -9,3 +9,21 @@
   font-size: 5vh !important;
   margin: 1%;
 }
+
+.title {
+  height: 8vw;
+}
+
+.form-wrapper {
+}
+
+form {
+  width: 60vw;
+  min-width: 300px;
+  justify-items: center;
+  background-color: black;
+  padding: 3vw;
+  border: 2px !important;
+  border-color: darkgray !important;
+  border-radius: 4%;
+}

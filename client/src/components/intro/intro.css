@@ -4,6 +4,7 @@
   background-color: rgb(0, 0, 0);
   min-height: 90vh;
   width: 100%;
+  padding: 1vw;
 }
 .title .chakra-code {
   font-size: 5vh !important;
