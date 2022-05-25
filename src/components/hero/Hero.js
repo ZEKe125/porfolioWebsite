@@ -14,6 +14,7 @@ export default function Hero() {
           MobileFirst with <strong>React.js</strong> and a little{' '}
           <strong>Chakra UI</strong>
         </p>
+        <p className="little">(Under Construction)</p>
       </Text>
     </Grid>
   );
