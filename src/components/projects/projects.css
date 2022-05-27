@@ -1,12 +1,115 @@
 .projects {
   background-image: url(../../../src/assets/blob_dark.svg);
-  background-repeat: stretch; 
+  background-repeat: stretch;
   background-size: cover;
   background-color: rgb(0, 0, 0);
   min-height: 90vh;
   width: 100%;
+  /* display: flex; */
 }
 
-.projects#dark {
-  background-color: rgb(70, 94, 22);
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(235, 235, 235); */
+  margin: 1vw;
+  padding: 1vw;
+  border-radius: 3%;
+}
+.project-card {
+  display: block;
+  padding: 1vw;
+  background-color: rgb(92, 92, 92);
+  margin: 1vw;
+  border: 5px !important;
+  border-color: black !important;
+  border-radius: 5%;
+  width: 45vw;
+  height: 65vw;
+  transform: scale(1, 1);
+  transition: transform 0.5s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.03, 1.03);
+}
+
+.project-card .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 42vw;
+  height: 35vw;
+  border-radius: 3%; */
+}
+.project-card img {
+  width: auto;
+  height: 33vw;
+  border-radius: 3%;
+  margin: 0.2vw;
+}
+
+.card-bottom {
+  font-size: 2vw;
+  margin-top: 2vw;
+}
+
+.project-title {
+  margin: 1vw;
+}
+
+.project-description {
+  margin: 1vw;
+}
+
+.project-links {
+  display: grid;
+  align-items: center;
+}
+.project-links button {
+  font-weight: 500;
+  font-size: 1.2vw;
+  margin-top: 1vw;
+  margin: 0.5vw;
+  padding: 2%;
+  background-color: #bb004b;
+  border-radius: 10%;
+  transform: scale(1, 1);
+  transition: transform 0.5s ease;
+}
+.project-links button:hover {
+  background-color: #a80043;
+  transform: scale(1.1, 1.1);
+}
+
+.marquee {
+  margin-top: 1vw;
+  position: relative;
+  height: 34vw;
+  width: 40vw;
+  overflow-x: hidden;
+  border-radius: 5%;
+}
+
+.track {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  /* white-space: nowrap; */
+  will-change: transform;
+  animation: marquee 9s linear infinite;
+  width: 130%;
+}
+.track:hover {
+  animation-play-state: paused;
+}
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
