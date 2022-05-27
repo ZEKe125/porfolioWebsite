@@ -1,5 +1,6 @@
 import React from 'react';
 import { Grid, Text, Code } from '@chakra-ui/react';
+import ProjectCard from './projectCard';
 import './projects.css';
 
 function Projects() {
