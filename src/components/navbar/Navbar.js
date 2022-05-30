@@ -18,7 +18,14 @@ function Navbar() {
         </Text>
       </div>
 
+      <div className="github">
+        <a href="https://github.com/ZEKe125" target="_blank">
+          <FaGithub className="icon" />
+        </a>
+      </div>
+      
       <div className="buttons">
+  
         <a href="https://github.com/ZEKe125" target="_blank">
           <FaGithub className="icon" />
         </a>

@@ -31,6 +31,7 @@
   border-radius: 50%;
   background: url('../../assets/profile.png') no-repeat;
   background-size: contain;
+  transition: background 0.3s ease;
 }
 
 .profile:hover {
@@ -57,6 +58,7 @@ h1.body {
 }
 .intro .buttons a {
   border-radius: 4%;
+  transition: background 0.3s ease;
 }
 
 .intro .buttons .icon {

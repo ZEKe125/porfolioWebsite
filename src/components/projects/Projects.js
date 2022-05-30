@@ -25,7 +25,7 @@ function Projects() {
       </div>
       <div className="project-cards">
         <ProjectCard
-          name="Predictive Maintanace Dashboard (OMRON Corp)"
+          name="Predictive Maintanace Dashboard (OMRON Corp) Award: 2022 UCM CS Capstone Winner"
           imageArr={ProjectImages1}
           desc={ProjectDesc1}
         />
