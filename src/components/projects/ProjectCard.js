@@ -3,13 +3,13 @@ import { Link } from '@chakra-ui/react';
 
 import './projects.css';
 
-function ProjectCard({ name, image, desc, imageArr }) {
+function ProjectCard({ name, desc, imageArr, track = 'track' }) {
   return (
     <div className="project-card">
       <div className="image">
         {/* <img src={image} alt="projectImage" className="project-image" /> */}
         <div className="marquee">
-          <div className="track">
+          <div className={track}>
             {imageArr?.map((image, i) => (
               <img src={image} alt="projectImage" className="project-image" />
             ))}
