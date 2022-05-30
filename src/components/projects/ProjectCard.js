@@ -23,12 +23,12 @@ function ProjectCard({ name, image, desc, imageArr }) {
         <div className="project-description">{desc}</div>
       </div>
       <div className="project-links">
-        <Link>
+        <a>
           <button>Live Project</button>
-        </Link>
-        <Link>
+        </a>
+        <a>
           <button>Project Code</button>
-        </Link>
+        </a>
       </div>
     </div>
   );
