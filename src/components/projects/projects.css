@@ -67,7 +67,7 @@
 .project-links {
   display: grid;
   align-items: center;
-  margin-bottom: 1vw;
+  margin: 0.5vw;
 }
 
 .project-links a {
@@ -77,16 +77,18 @@
 .project-links button {
   font-weight: 500;
   font-size: 2.5vw;
-  margin-top: 0.3vw;
+  /* margin-top: 0.1vw; */
   /* margin: 0.5vw; */
   padding: 2%;
+  /* border-radius: 1%; */
   background-color: #bb004b;
+
   transform: scale(1, 1);
   transition: transform 0.3s ease;
 }
 .project-links button:hover {
   font-weight: 600;
-  font-size: 2.6vw;
+  /* font-size: 1.4vw; */
   background-color: #a80043;
   transform: scale(1.05, 1.05);
 }
@@ -119,7 +121,6 @@
   /* animation: marquee 9s linear infinite; */
   width: 130%;
 }
-
 .track:hover {
   animation-play-state: paused;
 }
