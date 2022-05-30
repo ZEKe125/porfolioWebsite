@@ -9,3 +9,21 @@
   font-size: 5vh !important;
   margin: 1%;
 }
+
+.footer .buttons a {
+  border-radius: 4%;
+  transition: background 0.3s ease;
+}
+
+.footer .buttons .icon {
+  font-size: 10vw;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  min-width: 40px;
+}
+
+.footer .buttons a:hover {
+  background-color: rgb(6, 82, 65);
+}
