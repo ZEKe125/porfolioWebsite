@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Text, Code } from '@chakra-ui/react';
-import ProjectCard from './projectCard';
+import ProjectCard from './ProjectCard';
 import './projects.css';
 import p1i1 from '../../assets/project1/omronProjectMobil (1).png';
 import p1i2 from '../../assets/project1/omronProjectMobil (2).png';

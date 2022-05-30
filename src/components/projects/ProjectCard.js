@@ -1,39 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from '@chakra-ui/react';
-import SwipeableViews from 'react-swipeable-views';
-import { autoPlay } from 'react-swipeable-views-utils';
-// import Pagination from 'docs/src/modules/components/Pagination';
+
 import './projects.css';
 
-const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
-
-const styles = {
-  root: {
-    position: 'relative',
-  },
-  slide: {
-    padding: 15,
-    minHeight: 100,
-    color: '#fff',
-  },
-  slide1: {
-    backgroundColor: '#FEA900',
-  },
-  slide2: {
-    backgroundColor: '#B3DC4A',
-  },
-  slide3: {
-    backgroundColor: '#6AC0FF',
-  },
-};
-
-function ProjectCard({ name, image, desc, imageArr}) {
-  const [index, setindex] = useState(0);
-
-  const handleChangeIndex = index => {
-    setindex(index);
-  };
-
+function ProjectCard({ name, image, desc, imageArr }) {
   return (
     <div className="project-card">
       <div className="image">
