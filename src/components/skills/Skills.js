@@ -56,7 +56,7 @@ function Skills() {
           <h1>
             <strong>Web Languages </strong>
           </h1>
-          <p>In web developement I have worked with HTML5/CSS/javascript.</p>
+          <p>In web development, I have worked with HTML5/CSS/javascript.</p>
         </Box>
 
         <Box>
@@ -215,7 +215,7 @@ function Skills() {
           </h1>
           <p>
             <strong>Next.js</strong> React framework that gives you building
-            blocks to create fast web applications by using server side
+            blocks to create fast web applications by using server-side
             rendering.
           </p>
           <p>

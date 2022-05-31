@@ -36,14 +36,14 @@ function Intro() {
           </h1>
           <h1 className="body">
             {' '}
-            I'm interested in Remote Opportunities in Frontend Web Developmet.
+            I'm interested in Remote Opportunities in Frontend Web Development.
             Preferably <strong>React.js</strong>, but I'm open to other
             frameworks.
           </h1>
           <br></br>
           <h1 className="body">
             Currently, I'm learning Server-side rendering with{' '}
-            <strong>Next.js</strong>, and avdvanced animations using{' '}
+            <strong>Next.js</strong>, and advanced animations using{' '}
             <strong>Framer Motion.</strong>
           </h1>
           <h1 className="body"> </h1>
@@ -52,8 +52,8 @@ function Intro() {
           <h1 className="title">
             <strong>Education: </strong>
           </h1>
-          <h1 className="body">University of Califronia, Merced</h1>
-          <h1 className="body">B.S Computer Science and Enginnering </h1>
+          <h1 className="body">University of California, Merced</h1>
+          <h1 className="body">B.S Computer Science and Engineering </h1>
         </Box>
         <Box>
           <Center>

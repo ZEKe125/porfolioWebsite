@@ -22,7 +22,7 @@ function Projects() {
   const projectCode1 = 'https://github.com/ZEKe125/eStore_sanity_stripe';
   const projectLive1 = 'https://ecommerce-zeke125.vercel.app';
   const ProjectDesc1 =
-    'This Predictive Maintance Dashboard was Developed as Proof of Concept for the Omron Corp. Utilizes React, Flask API, SQLite, d3.js.';
+    'This Predictive Maintenance Dashboard was Developed as Proof of Concept for the Omron Corp. Utilizes React, Flask API, SQLite, d3.js.';
   const ProjectImages2 = [p2i1, p2i2, p2i3];
     const projectCode2 = 'https://github.com/ZEKe125/eStore_sanity_stripe';
     const projectLive2 = 'https://ecommerce-zeke125.vercel.app';
@@ -33,12 +33,11 @@ function Projects() {
     'Small Web Application built as Proof of Concept using React.js, Redux, Material UI, and WebGazer API. Tracks user eyes to navigate through the Application.';
   const ProjectImages4 = [p4i1, p4i2];
   const ProjectDesc4 =
-    'On this porfolio website although Chakra UI was implemented, it was built mostly from HTML/CSS/javascrip.';
+    'On this portfolio website, although Chakra UI was implemented, it was built mostly from HTML/CSS/javascript.';
   return (
     <Grid
       className="projects"
-      id="intro"
-      // style={{ backgroundImage: `url(${mySvg})` }}
+      id="#projects"
     >
       <div className="title">
         <Text>
@@ -47,7 +46,7 @@ function Projects() {
       </div>
       <div className="project-cards">
         <ProjectCard
-          name="Predictive Maintanace Dashboard (OMRON Corp) Award: 2022 UCM CS Capstone Winner"
+          name="Predictive Maintanance Dashboard (OMRON Corp) Award: 2022 UCM CS Capstone Winner"
           imageArr={ProjectImages1}
           desc={ProjectDesc1}
           track={'track'}
