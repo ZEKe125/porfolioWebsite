@@ -3,7 +3,7 @@ import { Link } from '@chakra-ui/react';
 
 import './projects.css';
 
-function ProjectCard({ name, desc, imageArr, track = 'track' }) {
+function ProjectCard({ name, desc, imageArr, track = 'track', live, code }) {
   return (
     <div className="project-card">
       <div className="image">
@@ -23,10 +23,10 @@ function ProjectCard({ name, desc, imageArr, track = 'track' }) {
         <div className="project-description">{desc}</div>
       </div>
       <div className="project-links">
-        <a>
+        <a href={live} target={'_blank'}>
           <button>Live Project</button>
         </a>
-        <a>
+        <a href={code} target={'_blank'} >
           <button>Project Code</button>
         </a>
       </div>

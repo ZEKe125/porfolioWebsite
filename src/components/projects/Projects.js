@@ -19,9 +19,13 @@ import p4i2 from '../../assets/project4/portfolio2.PNG';
 
 function Projects() {
   const ProjectImages1 = [p1i1, p1i2, p1i3];
+  const projectCode1 = 'https://github.com/ZEKe125/eStore_sanity_stripe';
+  const projectLive1 = 'https://ecommerce-zeke125.vercel.app';
   const ProjectDesc1 =
     'This Predictive Maintance Dashboard was Developed as Proof of Concept for the Omron Corp. Utilizes React, Flask API, SQLite, d3.js.';
   const ProjectImages2 = [p2i1, p2i2, p2i3];
+    const projectCode2 = 'https://github.com/ZEKe125/eStore_sanity_stripe';
+    const projectLive2 = 'https://ecommerce-zeke125.vercel.app';
   const ProjectDesc2 =
     'This e-commerce Website was built using Next.js react framework, and react functional components. It uses APIs and React hooks, useState, useEffect, useContext, etc. ';
   const ProjectImages3 = [p3i0, p3i1, p3i2];
@@ -47,22 +51,30 @@ function Projects() {
           imageArr={ProjectImages1}
           desc={ProjectDesc1}
           track={'track'}
+          live={projectLive1}
+          code={projectCode1}
         />
         <ProjectCard
           name="Zeke Supply Co. Ecommerce Project"
           imageArr={ProjectImages2}
           desc={ProjectDesc2}
+          live={projectLive1}
+          code={projectCode1}
           // track={'no-track'}
         />
         <ProjectCard
           name="EyeBook Project"
           imageArr={ProjectImages3}
           desc={ProjectDesc3}
+          live={projectLive1}
+          code={projectCode1}
         />
         <ProjectCard
           name="Portfolio Website"
           imageArr={ProjectImages4}
           desc={ProjectDesc4}
+          live={projectLive1}
+          code={projectCode1}
           // track={'no-track'}
         />
       </div>
