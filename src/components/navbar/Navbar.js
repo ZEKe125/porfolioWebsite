@@ -10,12 +10,14 @@ import {
 } from 'react-icons/fa';
 
 function Navbar() {
-
-const ScrollProjects = () => {
-  window.scrollTo.
-
-}
-
+  const ScrollProjects = () => {
+    console.log('hii');
+    window.scrollTo({
+      top: 4460,
+      left: 0,
+      behavior: 'smooth',
+    });
+  };
 
   return (
     <div className="navbar">
@@ -42,7 +44,7 @@ const ScrollProjects = () => {
           {' '}
           <FaLinkedin className="icon" />{' '}
         </a>{' '}
-        <a onClick={ () => ScrollProjects}>
+        <a onClick={() => ScrollProjects()}>
           <FaReact className="icon" />
         </a>
       </div>

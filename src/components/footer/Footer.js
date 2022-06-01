@@ -20,7 +20,10 @@ function Footer() {
           <a href="https://github.com/ZEKe125" target="_blank">
             <FaGithub className="icon" />
           </a>
-          <a>
+          <a
+            href="https://www.linkedin.com/in/ezequiel-cuevas99/"
+            target="_blank"
+          >
             <FaLinkedin className="icon" />
           </a>
           <a>

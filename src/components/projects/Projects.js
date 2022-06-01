@@ -19,26 +19,27 @@ import p4i2 from '../../assets/project4/portfolio2.PNG';
 
 function Projects() {
   const ProjectImages1 = [p1i1, p1i2, p1i3];
-  const projectCode1 = 'https://github.com/ZEKe125/eStore_sanity_stripe';
-  const projectLive1 = 'https://ecommerce-zeke125.vercel.app';
+  const projectCode1 = 'https://github.com/ZEKe125/Predictive-Maintenance-Dash';
+  const projectLive1 = 'https://zeke-porfolio-tawny.vercel.app/';
   const ProjectDesc1 =
     'This Predictive Maintenance Dashboard was Developed as Proof of Concept for the Omron Corp. Utilizes React, Flask API, SQLite, d3.js.';
   const ProjectImages2 = [p2i1, p2i2, p2i3];
-    const projectCode2 = 'https://github.com/ZEKe125/eStore_sanity_stripe';
-    const projectLive2 = 'https://ecommerce-zeke125.vercel.app';
+  const projectCode2 = 'https://github.com/ZEKe125/eStore_sanity_stripe';
+  const projectLive2 = 'https://ecommerce-zeke125.vercel.app';
   const ProjectDesc2 =
     'This e-commerce Website was built using Next.js react framework, and react functional components. It uses APIs and React hooks, useState, useEffect, useContext, etc. ';
   const ProjectImages3 = [p3i0, p3i1, p3i2];
+  const projectCode3 = 'https://github.com/ZEKe125/eyebook-react';
+  const projectLive3 = 'https://eyebook-react-zeke125.vercel.app/';
   const ProjectDesc3 =
     'Small Web Application built as Proof of Concept using React.js, Redux, Material UI, and WebGazer API. Tracks user eyes to navigate through the Application.';
   const ProjectImages4 = [p4i1, p4i2];
+  const projectCode4 = 'https://github.com/ZEKe125/porfolioWebsite';
+  const projectLive4 = 'https://zeke-porfolio-tawny.vercel.app/';
   const ProjectDesc4 =
     'On this portfolio website, although Chakra UI was implemented, it was built mostly from HTML/CSS/javascript.';
   return (
-    <Grid
-      className="projects"
-      id="#projects"
-    >
+    <Grid className="projects" id="#projects">
       <div className="title">
         <Text>
           <Code>{`<Projects />`}</Code>
@@ -57,23 +58,23 @@ function Projects() {
           name="Zeke Supply Co. Ecommerce Project"
           imageArr={ProjectImages2}
           desc={ProjectDesc2}
-          live={projectLive1}
-          code={projectCode1}
+          live={projectLive2}
+          code={projectCode2}
           // track={'no-track'}
         />
         <ProjectCard
           name="EyeBook Project"
           imageArr={ProjectImages3}
           desc={ProjectDesc3}
-          live={projectLive1}
-          code={projectCode1}
+          live={projectLive3}
+          code={projectCode3}
         />
         <ProjectCard
           name="Portfolio Website"
           imageArr={ProjectImages4}
           desc={ProjectDesc4}
-          live={projectLive1}
-          code={projectCode1}
+          live={projectLive4}
+          code={projectCode4}
           // track={'no-track'}
         />
       </div>
