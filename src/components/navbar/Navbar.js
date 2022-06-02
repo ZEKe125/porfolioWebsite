@@ -3,6 +3,7 @@ import { Button, Text, Code } from '@chakra-ui/react';
 import './navbar.css';
 import {
   FaBeer,
+  FaEnvelope,
   FaGithub,
   FaLinkedin,
   FaLinkedinIn,
@@ -44,8 +45,8 @@ function Navbar() {
           {' '}
           <FaLinkedin className="icon" />{' '}
         </a>{' '}
-        <a onClick={() => ScrollProjects()}>
-          <FaReact className="icon" />
+        <a href='mailto:ezelcuevas@gmail.com'>
+          <FaEnvelope className="icon" />
         </a>
       </div>
     </div>

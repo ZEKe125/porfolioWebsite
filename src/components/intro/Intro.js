@@ -9,7 +9,7 @@ import {
 } from '@chakra-ui/react';
 import React from 'react';
 import './intro.css';
-import { FaGithub, FaLinkedin, FaReact } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 function Intro() {
   return (
@@ -82,8 +82,8 @@ function Intro() {
           >
             <FaLinkedin className="icon" />
           </a>
-          <a>
-            <FaReact className="icon" />
+          <a href="mailto:ezelcuevas@gmail.com">
+            <FaEnvelope className="icon" />
           </a>
         </Center>
       </SimpleGrid>

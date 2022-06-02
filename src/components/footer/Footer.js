@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Text, Code, SimpleGrid, Center } from '@chakra-ui/react';
 import './footer.css';
-import { FaGithub, FaLinkedin, FaReact } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -26,8 +26,8 @@ function Footer() {
           >
             <FaLinkedin className="icon" />
           </a>
-          <a>
-            <FaReact className="icon" />
+          <a href="mailto:ezelcuevas@gmail.com">
+            <FaEnvelope className="icon" />
           </a>
         </Center>
       </SimpleGrid>

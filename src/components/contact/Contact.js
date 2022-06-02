@@ -11,7 +11,7 @@ function Contact() {
           <Code>{`<Contact-Me />`}</Code>
         </Text>
       </div>
-      <ContactForm/>
+      {/* <ContactForm/> */}
     </Grid>
   );
 }
