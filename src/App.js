@@ -4,9 +4,10 @@ import Hero from './components/hero/Hero';
 import Intro from './components/intro/Intro';
 import Projects from './components/projects/Projects';
 import Navbar from './components/navbar/Navbar';
-// import Contact from './components/contact/Contact';
+import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Skills from './components/skills/Skills';
+import './App.css'
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <Intro />
       <Skills />
       <Projects />
-      {/* <Contact /> */}
+      <Contact />
       <Footer />
     </div>
   );

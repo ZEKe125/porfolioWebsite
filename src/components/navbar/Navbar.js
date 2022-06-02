@@ -2,30 +2,21 @@ import React from 'react';
 import { Button, Text, Code } from '@chakra-ui/react';
 import './navbar.css';
 import {
-  FaBeer,
   FaEnvelope,
   FaGithub,
   FaLinkedin,
-  FaLinkedinIn,
-  FaReact,
+ 
 } from 'react-icons/fa';
 
 function Navbar() {
-  const ScrollProjects = () => {
-    console.log('hii');
-    window.scrollTo({
-      top: 4460,
-      left: 0,
-      behavior: 'smooth',
-    });
-  };
+
 
   return (
     <div className="navbar">
       <div className="logo">
-        <Text>
+        
           <Code>{`<Portfolio />`}</Code>
-        </Text>
+      
       </div>
 
       <div className="github">

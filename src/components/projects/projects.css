@@ -14,6 +14,7 @@
   align-items: center;
   justify-content: center;
   margin: 1vw;
+  margin-top: 10vw;
   padding: 1.5vw;
   
 }
@@ -23,11 +24,8 @@
   background-color: rgb(92, 92, 92);
   background-image: linear-gradient(154deg,#434343 0%,#141414 100%);
   margin: 1vw;
-  border-radius: 13px 13px 13px 13px;
+  border-radius: 1.5vw;
   box-shadow: 0px 36px 40px -22px rgb(0 0 61 / 40%);
-  border-style: solid;
-  border-width: 1px;
-  border-color: #5a5a5a;
   width: 44vw;
   min-height: 75vw;
   transform: scale(1, 1);
@@ -46,7 +44,7 @@
 .project-card img {
   width: auto;
   height: 33vw;
-  border-radius: 13px 13px 13px 13px;
+  border-radius: 1.5vw;
 
   margin: 0.2vw;
   transform: scale(1, 1);
@@ -83,7 +81,7 @@
 .project-links button {
   font-weight: 500;
   font-size: 2.5vw;
-  border-radius: 13px 13px 13px 13px;
+  border-radius: 1.5vw;
   /* margin-top: 0.1vw; */
   /* margin: 0.5vw; */
   padding: 2%;
@@ -106,7 +104,7 @@
   height: 34vw;
   width: 40vw;
   overflow-x: hidden;
-  border-radius: 13px 13px 13px 13px;
+  border-radius: 1.5vw;
 }
 
 .track {

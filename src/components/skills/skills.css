@@ -4,7 +4,7 @@
   background-color: rgb(0, 0, 0);
   min-height: 110vh;
   width: 100%;
-  padding: 2vw;
+  overflow: hidden;
 }
 .title .chakra-code {
   display: inline;

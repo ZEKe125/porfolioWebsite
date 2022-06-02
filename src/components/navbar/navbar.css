@@ -1,11 +1,11 @@
 .navbar {
-  overflow: auto;
+  /* overflow: hidden; */
   height: 60px;
-  background-color: darkslategray;
+  background-color: rgb(9, 13, 77);
   background-image: linear-gradient(
     to right,
-    var(--chakra-colors-cyan-800),
-    var(--chakra-colors-pink-800)
+    rgb(6, 131, 140),
+    rgb(136, 8, 153)
   );
   font-weight: 400;
   position: fixed;
@@ -33,7 +33,8 @@
   text-align: center !important;
   align-items: center;
   height: 100%;
-  padding: 11px;
+  margin-left: 1vw;
+  margin-right: 1vw;
   transition: background 0.3s ease;
 }
 .navbar .logo:hover {
@@ -46,10 +47,12 @@
 
 .navbar .chakra-code {
   font-size: 25px !important;
-}
+  margin: 0px !important;
+  /* padding: 15px; */
+  position: relative;
+        top: 50%;
+        transform: translateY(-50%);
 
-.navbar .logo {
-  margin-left: 2%;
 }
 
 .navbar .buttons {
@@ -63,7 +66,6 @@
 
 .navbar .github {
   display: none;
-  
 }
 
 .icon {
@@ -77,11 +79,11 @@
     display: none;
   }
   .navbar .github {
-  display: flex;
-  flex-grow: inherit;
-  position: absolute;
-  right: 1vw;
-  align-items: center;
-  height: 100%;
-}
+    display: flex;
+    flex-grow: inherit;
+    position: absolute;
+    right: 1vw;
+    align-items: center;
+    height: 100%;
+  }
 }
