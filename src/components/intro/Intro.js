@@ -3,7 +3,7 @@ import {
   Text,
   Code,
   Center,
-  Box,
+  div,
   SimpleGrid,
   Image,
 } from '@chakra-ui/react';
@@ -13,15 +13,15 @@ import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 function Intro() {
   return (
-    <Grid className="intro" id="intro">
+    <div className="intro" id="intro">
       <div className="title">
         <Text>
           <Code>{`<Intro />`}</Code>
         </Text>
       </div>
 
-      <SimpleGrid columns={2} spacing={10}>
-        <Box>
+      <div className="simpGrid">
+        <div>
           <Center>
             <a
               className="profile"
@@ -29,33 +29,34 @@ function Intro() {
               target={'_blank'}
             ></a>
           </Center>
-        </Box>
-        <Box>
+        </div>
+        <div>
           <h1 className="title">
             <strong>Interests:</strong>
+            <h1 className="body">
+              {' '}
+              I'm interested in Remote Opportunities in Frontend Web
+              Development. Preferably <strong>React.js</strong>, but I'm open to
+              other frameworks.
+            </h1>
+            {/* <br></br> */}
+            <h1 className="body">
+              Currently, I'm learning Server-side rendering with{' '}
+              <strong>Next.js</strong>, and advanced animations using{' '}
+              <strong>Framer Motion.</strong>
+            </h1>
           </h1>
-          <h1 className="body">
-            {' '}
-            I'm interested in Remote Opportunities in Frontend Web Development.
-            Preferably <strong>React.js</strong>, but I'm open to other
-            frameworks.
-          </h1>
-          <br></br>
-          <h1 className="body">
-            Currently, I'm learning Server-side rendering with{' '}
-            <strong>Next.js</strong>, and advanced animations using{' '}
-            <strong>Framer Motion.</strong>
-          </h1>
-          <h1 className="body"> </h1>
-        </Box>
-        <Box>
+        </div>
+        <br />
+        <br />
+        <div>
           <h1 className="title">
             <strong>Education: </strong>
+            <h1 className="body">University of California, Merced</h1>
+            <h1 className="body">B.S Computer Science and Engineering </h1>
           </h1>
-          <h1 className="body">University of California, Merced</h1>
-          <h1 className="body">B.S Computer Science and Engineering </h1>
-        </Box>
-        <Box>
+        </div>
+        <div>
           <Center>
             <a href="https://engineering.ucmerced.edu/" target={'_blank'}>
               <Image
@@ -66,10 +67,8 @@ function Intro() {
               />
             </a>
           </Center>
-        </Box>
-        {/* <Box>hi</Box>
-        <Box>hello </Box> */}
-      </SimpleGrid>
+        </div>
+      </div>
 
       <SimpleGrid color="white" className="buttons">
         <Center>
@@ -87,7 +86,7 @@ function Intro() {
           </a>
         </Center>
       </SimpleGrid>
-    </Grid>
+    </div>
   );
 }
 

@@ -1,13 +1,32 @@
 .App {
-  background-image: url(../src/assets/waves.svg);
+  /* background-image: url(../src/assets/waves.svg);
   background-size: contain;
-  width: 100%;
-  color: rgb(243, 243, 243);
+  /* width: 100%; */
+  color: rgb(243, 243, 243); 
+  font-family:  Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+button{
+  color: aliceblue;
+}
+
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+body {
+  margin: 0px !important;
 }
 
 .App .chakra-code {
-  border-radius: var(--chakra-radii-sm) !important;
   background: none;
   backface-visibility: 0.1;
-  color: var(--chakra-colors-white-800) !important;
+  color: aliceblue !important;
+  
 }
