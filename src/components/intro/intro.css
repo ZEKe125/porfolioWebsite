@@ -1,3 +1,7 @@
+/* div{
+  padding: 0px;
+} */
+
 .intro {
   background-image: url(../../../src/assets/blob0.svg);
   background-size: cover;
@@ -5,10 +9,15 @@
   min-height: 90vh;
   width: 100%;
   padding: 5vw;
+  overflow: hidden;
 }
 .title .chakra-code {
   font-size: 5vh !important;
   margin: 1%;
+}
+
+.intro .simpGrid {
+  padding-top: 10vw;
 }
 
 .intro .img {
@@ -20,12 +29,9 @@
 }
 
 .profile {
-  /* display: inline-block; */
-
   width: 15vw;
   height: 15vw;
   margin: 2vw;
-  /* padding: 2vw; */
   min-width: 160px;
   min-height: 160px;
   border-radius: 50%;
@@ -41,14 +47,15 @@
 
 h1.title {
   font-size: 3vw !important;
-  margin-left: 2vw;
-  margin-right: 1vw;
+
+  /* margin-left: 2vw; */
+  /* margin-right: 1vw; */
   text-align: left;
 }
 
 h1.body {
   font-size: 2.5vw !important;
-  margin-left: 2vw;
+  margin-left: 5vw;
   margin-right: 1vw;
   text-align: left;
 }
@@ -59,9 +66,11 @@ h1.body {
 .intro .buttons a {
   border-radius: 4%;
   transition: background 0.3s ease;
+  text-decoration: none;
 }
 
 .intro .buttons .icon {
+  color: aliceblue !important;
   font-size: 10vw;
   margin-left: 4vw;
   margin-right: 4vw;
