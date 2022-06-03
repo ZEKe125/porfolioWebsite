@@ -26,10 +26,11 @@
   margin: 1vw;
   border-radius: 1.5vw;
   box-shadow: 0px 36px 40px -22px rgb(0 0 61 / 40%);
-  width: 44vw;
-  min-height: 75vw;
+  width: 42vw;
+  min-height: 65vw;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
+  max-width: 500px;
 }
 
 .project-card:hover {
@@ -44,6 +45,7 @@
 .project-card img {
   width: auto;
   height: 33vw;
+  max-height: 450px;
   border-radius: 1.5vw;
 
   margin: 0.2vw;
@@ -56,7 +58,7 @@
 }
 
 .card-bottom {
-  font-size: 2vw;
+  font-size: 1.5vw;
   margin-top: 2vw;
 }
 
@@ -81,19 +83,14 @@
 .project-links button {
   font-weight: 500;
   font-size: 2.5vw;
-  border-radius: 1.5vw;
-  /* margin-top: 0.1vw; */
-  /* margin: 0.5vw; */
+  border-radius: 1vw;
   padding: 2%;
-  /* border-radius: 1%; */
   background-color: #bb004b;
-
   transform: scale(1, 1);
   transition: transform 0.3s ease;
 }
 .project-links button:hover {
   font-weight: 600;
-  /* font-size: 1.4vw; */
   background-color: #a80043;
   transform: scale(1.05, 1.05);
 }

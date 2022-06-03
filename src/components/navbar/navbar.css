@@ -4,8 +4,8 @@
   background-color: rgb(9, 13, 77);
   background-image: linear-gradient(
     to right,
-    rgb(6, 131, 140),
-    rgb(136, 8, 153)
+    rgb(3, 63, 68),
+    rgb(156, 8, 104)
   );
   font-weight: 400;
   position: fixed;
@@ -76,14 +76,14 @@
 
 @media screen and (max-width: 500px) {
   .navbar .buttons {
-    display: none;
+    /* display: none; */
   }
-  .navbar .github {
+  /* .navbar .github {
     display: flex;
     flex-grow: inherit;
     position: absolute;
     right: 1vw;
     align-items: center;
     height: 100%;
-  }
+  } */
 }

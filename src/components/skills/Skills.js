@@ -54,7 +54,7 @@ function Skills() {
         </Box>
         <Box>
           <h1>
-            <strong>Web Languages </strong>
+            <strong>Web Languages</strong>
           </h1>
           <p>In web development, I have worked with HTML5/CSS/javascript.</p>
         </Box>

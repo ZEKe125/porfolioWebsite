@@ -24,6 +24,16 @@
   transition: background 0.2s ease;
 }
 
+.skills p{
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.skills h1{
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
 .skills .img:hover {
   background-color: rgb(227, 185, 255);
   opacity: 0.9;
