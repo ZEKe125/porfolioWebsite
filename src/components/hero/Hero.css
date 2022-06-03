@@ -7,14 +7,14 @@
 
 .text {
   /* margin-top: 35vh; */
-  font-size: 9vw;
+  font-size: 7vw;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 35vh;
   text-align: center;
 }
 .hero .chakra-code {
-  font-size: 9vw !important;
+  font-size: 7vw !important;
 }
 
 .hero .little {
