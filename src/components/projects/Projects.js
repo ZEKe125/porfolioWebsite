@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Text, Code } from '@chakra-ui/react';
+import { div, Text, Code } from '@chakra-ui/react';
 import ProjectCard from './ProjectCard';
 import './projects.css';
 import p1i1 from '../../assets/project1/omronProjectMobil (1).png';
@@ -37,13 +37,13 @@ function Projects() {
   const projectCode4 = 'https://github.com/ZEKe125/porfolioWebsite';
   const projectLive4 = 'https://zeke-porfolio-tawny.vercel.app/';
   const ProjectDesc4 =
-    'On this portfolio website, although Chakra UI was implemented, it was built mostly from HTML/CSS/javascript.';
+    'This Mobile First Portfolio Website, was built mostly from HTML/CSS/javascript as well as some Chakra UI.';
   return (
-    <Grid className="projects" id="#projects">
+    <div className="projects" id="#projects">
       <div className="title">
-        <Text>
-          <Code>{`<Projects />`}</Code>
-        </Text>
+        
+          <Code className='code'>{`<Projects />`}</Code>
+        
       </div>
       <div className="project-cards">
         <ProjectCard
@@ -78,7 +78,7 @@ function Projects() {
           // track={'no-track'}
         />
       </div>
-    </Grid>
+    </div>
   );
 }
 
