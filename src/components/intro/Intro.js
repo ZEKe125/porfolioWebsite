@@ -13,12 +13,12 @@ import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 function Intro() {
   return (
-    <div className="intro" id="intro">
+    <div className="intro section" id="intro">
       <div className="title">
         <Code>{`<Intro />`}</Code>
       </div>
 
-      <div className='center'>
+      <div className="center">
         <a
           className="profile"
           href="https://www.linkedin.com/in/ezequiel-cuevas99/"

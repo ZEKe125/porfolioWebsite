@@ -7,7 +7,7 @@ import { Logo } from '../../Logo';
 function Skills() {
   //   const color = useColorMode();
   return (
-    <Grid className="skills" id="skills">
+    <Grid className="skills section" id="skills">
       <div className="title">
         <Text>
           <Code>{`<Skills />`}</Code>

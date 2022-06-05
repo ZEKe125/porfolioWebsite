@@ -6,7 +6,7 @@ import './contact.css';
 
 function Contact() {
   return (
-    <div className="contact" id="contact">
+    <div className="contact section" id="contact">
       <div className="title">
         <Code>{`<Contact-Me />`}</Code>
       </div>

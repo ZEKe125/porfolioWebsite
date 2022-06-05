@@ -1,6 +1,14 @@
 import React from 'react';
 import './Hero.css';
-import { Grid, Text, Code } from '@chakra-ui/react';
+import { Code } from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
+import {
+  FaChess,
+  FaChessKnight,
+  FaCogs,
+  FaFolder,
+  FaUserCheck,
+} from 'react-icons/fa';
 
 export default function Hero() {
   return (
@@ -12,6 +20,20 @@ export default function Hero() {
           <strong>Chakra UI</strong>
         </p>
         <p className="little">(Under Construction)</p>
+      </div>
+      <div className="nav">
+        <Link to="/intro">
+          <FaUserCheck className="icon" />
+          <Code>{`<Intro/>`}</Code>
+        </Link>
+        <Link to="/skills">
+          <FaChessKnight className="icon" />
+          <Code>{`<Skills/>`}</Code>
+        </Link>
+        <Link to="/projects">
+          <FaFolder className="icon" />
+          <Code>{`<Projects/>`}</Code>
+        </Link>
       </div>
     </div>
   );

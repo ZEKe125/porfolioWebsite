@@ -39,11 +39,9 @@ function Projects() {
   const ProjectDesc4 =
     'This Mobile First Portfolio Website, was built mostly from HTML/CSS/javascript as well as some Chakra UI.';
   return (
-    <div className="projects" id="#projects">
+    <div className="projects section" id="#projects">
       <div className="title">
-        
-          <Code className='code'>{`<Projects />`}</Code>
-        
+        <Code className="code">{`<Projects />`}</Code>
       </div>
       <div className="project-cards">
         <ProjectCard
