@@ -1,5 +1,6 @@
 .navbar {
   /* overflow: hidden; */
+  display: inline;
   height: 60px;
   background-color: rgb(9, 13, 77);
   background-image: linear-gradient(
@@ -47,8 +48,7 @@
 
 .navbar .chakra-code {
   font-size: 25px !important;
-  margin: 0px !important;
-  /* padding: 15px; */
+  padding: 15px;
   position: relative;
         top: 50%;
         transform: translateY(-50%);

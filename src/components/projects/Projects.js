@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { div, Text, Code } from '@chakra-ui/react';
 import ProjectCard from './ProjectCard';
 import './projects.css';
@@ -38,43 +38,50 @@ function Projects() {
   const projectLive4 = 'https://zeke-porfolio-tawny.vercel.app/';
   const ProjectDesc4 =
     'This Mobile First Portfolio Website, was built mostly from HTML/CSS/javascript as well as some Chakra UI.';
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="projects section" id="#projects">
-      <div className="title">
-        <Code className="code">{`<Projects />`}</Code>
-      </div>
-      <div className="project-cards">
-        <ProjectCard
-          name="Predictive Maintanance Dashboard (OMRON Corp) Award: 2022 UCM CS Capstone Winner"
-          imageArr={ProjectImages1}
-          desc={ProjectDesc1}
-          track={'track'}
-          live={projectLive1}
-          code={projectCode1}
-        />
-        <ProjectCard
-          name="Zeke Supply Co. Ecommerce Project"
-          imageArr={ProjectImages2}
-          desc={ProjectDesc2}
-          live={projectLive2}
-          code={projectCode2}
-          // track={'no-track'}
-        />
-        <ProjectCard
-          name="EyeBook Project"
-          imageArr={ProjectImages3}
-          desc={ProjectDesc3}
-          live={projectLive3}
-          code={projectCode3}
-        />
-        <ProjectCard
-          name="Portfolio Website"
-          imageArr={ProjectImages4}
-          desc={ProjectDesc4}
-          live={projectLive4}
-          code={projectCode4}
-          // track={'no-track'}
-        />
+      <div className="container">
+        <div className="title">
+          <Code className="code">{`<Projects />`}</Code>
+        </div>
+        <div className="project-cards">
+          <ProjectCard
+            name="Predictive Maintanance Dashboard (OMRON Corp) Award: 2022 UCM CS Capstone Winner"
+            imageArr={ProjectImages1}
+            desc={ProjectDesc1}
+            track={'track'}
+            live={projectLive1}
+            code={projectCode1}
+          />
+          <ProjectCard
+            name="Zeke Supply Co. Ecommerce Project"
+            imageArr={ProjectImages2}
+            desc={ProjectDesc2}
+            live={projectLive2}
+            code={projectCode2}
+            // track={'no-track'}
+          />
+          <ProjectCard
+            name="EyeBook Project"
+            imageArr={ProjectImages3}
+            desc={ProjectDesc3}
+            live={projectLive3}
+            code={projectCode3}
+          />
+          <ProjectCard
+            name="Portfolio Website"
+            imageArr={ProjectImages4}
+            desc={ProjectDesc4}
+            live={projectLive4}
+            code={projectCode4}
+            // track={'no-track'}
+          />
+        </div>
       </div>
     </div>
   );

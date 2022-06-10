@@ -8,17 +8,16 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <div className="navbar">
-      <a classname="none" href="/">
-        <div className="logo">
+      <div className="logo">
+        <a href="/">
           <Code>{`<Portfolio />`}</Code>
-        </div>
-      </a>
-
-      <div className="github">
+        </a>
+      </div>
+      {/* <div className="github">
         <a href="https://github.com/ZEKe125" target="_blank">
           <FaGithub className="icon" />
         </a>
-      </div>
+      </div> */}
 
       <div className="buttons">
         <a href="https://github.com/ZEKe125" target="_blank">
