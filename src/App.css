@@ -2,21 +2,22 @@
   /* background-image: url(../src/assets/waves.svg);
   background-size: contain;
   /* width: 100%; */
-  color: rgb(243, 243, 243); 
-  font-family:  Helvetica, sans-serif;
+  color: rgb(243, 243, 243);
+  font-family: Helvetica, sans-serif;
   overflow: hidden;
 }
 
-button{
+button {
   color: aliceblue;
 }
 
-a{
+a {
   text-decoration: none;
   color: aliceblue;
+  text-align: center;
 }
 
-a:hover{
+a:hover {
   cursor: pointer;
 }
 
@@ -28,5 +29,104 @@ body {
   background: none;
   backface-visibility: 0.1;
   color: aliceblue !important;
-  
+}
+
+.App .container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.section {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero .nav a {
+  display: block;
+  border-radius: 4% !important;
+  transition: background 0.3s ease;
+  padding: 1%;
+}
+
+.hero .nav a:hover {
+  background-color: rgb(0, 167, 84);
+}
+
+.hero .nav {
+  padding-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+@media screen and (min-width: 601px) {
+  .hero .nav .chakra-code {
+    font-size: 2rem !important;
+  }
+  .hero .nav .icon {
+    font-size: 8rem;
+    min-width: 40px;
+  }
+  .text {
+    font-size: 5rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 90px;
+    text-align: center;
+  }
+  .hero .chakra-code {
+    font-size: 5rem !important;
+  }
+
+  .hero .little {
+    position: static;
+    bottom: 0;
+    right: 0;
+    font-size: 2rem;
+    text-align: right;
+    padding-right: 3%;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .hero .nav .chakra-code {
+    font-size: 20px !important;
+  }
+  .hero .nav .icon {
+    font-size: 60px;
+    min-width: 40px;
+  }
+
+  .text {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 90px;
+    text-align: center;
+  }
+
+  .hero .chakra-code {
+    font-size: 3rem !important;
+  }
+
+  .hero .little {
+    position: static;
+    bottom: 0;
+    right: 0;
+    font-size: 1rem;
+    text-align: right;
+    padding-right: 3%;
+    font-weight: 400;
+  }
+  .hero .nav {
+  padding-top: 25%;
+ 
+}
 }

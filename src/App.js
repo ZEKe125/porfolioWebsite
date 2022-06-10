@@ -7,18 +7,26 @@ import Navbar from './components/navbar/Navbar';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Skills from './components/skills/Skills';
-import './App.css'
+import './App.css';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Hero />
+      <Routes>
+        <Route exact path="/" element={<Hero />} />
+        <Route exact path="/intro" element={<Intro />} />
+        <Route exact path="/skills" element={<Skills />} />
+        <Route exact path="/projects" element={<Projects />} />
+        <Route exact path="/contact" element={<Contact />} />
+      </Routes>
+      {/* <Hero />
       <Intro />
       <Skills />
       <Projects />
-      <Contact />
-      <Footer />
+      <Contact /> */}
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Text, Code } from '@chakra-ui/react';
 // import ContactForm from './ContactForm';
 import { FaEnvelope, FaWpforms, FaFileAlt } from 'react-icons/fa';
 import './contact.css';
 
 function Contact() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
-    <div className="contact" id="contact">
+    <div className="contact section" id="contact">
       <div className="title">
         <Code>{`<Contact-Me />`}</Code>
       </div>
