@@ -1,7 +1,8 @@
-import { Grid, Text, Code, Box, SimpleGrid, Image } from '@chakra-ui/react';
+import { Grid, Text, Code, Box, SimpleGrid, Image, Center, Button } from '@chakra-ui/react';
 import React, { useEffect } from 'react';
 import './skills.css';
 import { Logo } from '../../Logo';
+import { Link } from 'react-router-dom';
 // import { useColorMode } from '@chakra-ui/react';
 
 function Skills() {
@@ -38,11 +39,10 @@ function Skills() {
             </a>
           </Box>
           <Box>
-            <a href="https://reactjs.org/" target={'_blank'}>
-              <h1>
-                <strong>React.js</strong>
-              </h1>
-            </a>
+            <h1>
+              <strong>React.js</strong>
+            </h1>
+
             <p>
               React is a JavaScript library for building user interfaces. React
               is used to build single-page applications. React allows us to
@@ -245,6 +245,15 @@ function Skills() {
                 alt="framerMotion"
               />
             </a>
+            
+          </Box>
+          <Box></Box>
+          <Box>
+            <Center>
+              <a href="/contact">
+                <button >Contact Me</button>
+              </a>
+            </Center>
           </Box>
         </SimpleGrid>
       </div>

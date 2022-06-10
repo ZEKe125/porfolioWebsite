@@ -156,5 +156,8 @@
 .projects .title .chakra-code{
   font-size: 20px !important;
 }
+.grid{
+  padding-top: 60px;
+}
 
 }
