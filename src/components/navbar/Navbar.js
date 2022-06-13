@@ -1,9 +1,9 @@
 import React from 'react';
-import { Button, Text, Code } from '@chakra-ui/react';
+import { Code } from '@chakra-ui/react';
 import './navbar.css';
 import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -20,11 +20,12 @@ function Navbar() {
       </div> */}
 
       <div className="buttons">
-        <a href="https://github.com/ZEKe125" target="_blank">
+        <a href="https://github.com/ZEKe125" target="_blank" rel="noreferrer">
           <FaGithub className="icon" />
         </a>
         <a
           href="https://www.linkedin.com/in/ezequiel-cuevas99/"
+          rel="noreferrer"
           target="_blank"
         >
           {' '}

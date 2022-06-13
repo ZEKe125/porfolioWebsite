@@ -4,8 +4,6 @@ import { Code } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 import {
   FaChess,
-  FaChessKnight,
-  FaCogs,
   FaFolder,
   FaUserCheck,
 } from 'react-icons/fa';

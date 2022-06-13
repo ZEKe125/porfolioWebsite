@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { Link } from '@chakra-ui/react';
+import React from 'react';
 
 import './projects.css';
 
@@ -23,12 +22,16 @@ function ProjectCard({ name, desc, imageArr, track = 'track', live, code }) {
         <div className="project-description">{desc}</div>
       </div>
       <div className="project-links">
-        <a href={live} target={'_blank'}>
-          <button>Live Project</button>
-        </a>
-        <a href={code} target={'_blank'} >
-          <button>Project Code</button>
-        </a>
+        {live && (
+          <a href={live} target={'_blank'} rel="noreferrer">
+            <button>Live Project</button>
+          </a>
+        )}
+        {code && (
+          <a href={code} target={'_blank'} rel="noreferrer">
+            <button>Project Code</button>
+          </a>
+        )}
       </div>
     </div>
   );

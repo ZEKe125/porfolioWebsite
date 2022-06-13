@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Text, Code } from '@chakra-ui/react';
+import { Code } from '@chakra-ui/react';
 // import ContactForm from './ContactForm';
 import { FaEnvelope, FaWpforms, FaFileAlt } from 'react-icons/fa';
 import './contact.css';
@@ -20,18 +20,20 @@ function Contact() {
         </div>
 
         <div className="buttons">
-          <a href="mailto:ezelcuevas@gmail.com">
+          <a href="mailto:ezelcuevas@gmail.com" rel="noreferrer">
             <FaEnvelope className="icon" />
             <p>Email</p>
           </a>
           <a
             href="https://www.myperfectresume.com/me/ezequiel-cuevas"
+            rel="noreferrer"
             target={'_blank'}
           >
             <FaFileAlt className="icon" />
             <p>Resume</p>
           </a>
           <a
+            rel="noreferrer"
             href="https://www.myperfectresume.com/me/ezequiel-cuevas/contact"
             target={'_blank'}
           >

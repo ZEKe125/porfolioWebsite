@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { div, Text, Code } from '@chakra-ui/react';
+import { Code } from '@chakra-ui/react';
 import ProjectCard from './ProjectCard';
 import './projects.css';
 import p1i1 from '../../assets/project1/omronProjectMobil (1).png';
@@ -20,7 +20,7 @@ import p4i2 from '../../assets/project4/portfolio2.PNG';
 function Projects() {
   const ProjectImages1 = [p1i1, p1i2, p1i3];
   const projectCode1 = 'https://github.com/ZEKe125/Predictive-Maintenance-Dash';
-  const projectLive1 = 'https://zeke-porfolio-tawny.vercel.app/';
+  // const projectLive1 = 'https://zeke-porfolio-tawny.vercel.app/';
   const ProjectDesc1 =
     'This Predictive Maintenance Dashboard was Developed as Proof of Concept for the Omron Corp. Utilizes React, Flask API, SQLite, d3.js.';
   const ProjectImages2 = [p2i1, p2i2, p2i3];
@@ -55,7 +55,7 @@ function Projects() {
             imageArr={ProjectImages1}
             desc={ProjectDesc1}
             track={'track'}
-            live={projectLive1}
+            // live={projectLive1}
             code={projectCode1}
           />
           <ProjectCard

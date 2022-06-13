@@ -1,9 +1,6 @@
 import {
-  Grid,
-  Text,
   Code,
   Center,
-  div,
   SimpleGrid,
   Image,
 } from '@chakra-ui/react';
@@ -24,13 +21,14 @@ function Intro() {
 
         <div className="center">
           <a
+            rel="noreferrer"
             className="profile"
             href="https://www.linkedin.com/in/ezequiel-cuevas99/"
             target={'_blank'}
           ></a>
         </div>
 
-        <div >
+        <div>
           <h1>
             <strong>Interests:</strong>
             <h1 className="body">
@@ -48,7 +46,7 @@ function Intro() {
           </h1>
         </div>
 
-        <div >
+        <div>
           <h1>
             <strong>Education: </strong>
             <h1 className="body">University of California, Merced</h1>
@@ -57,7 +55,11 @@ function Intro() {
         </div>
 
         <Center>
-          <a href="https://engineering.ucmerced.edu/" target={'_blank'}>
+          <a
+            href="https://engineering.ucmerced.edu/"
+            target={'_blank'}
+            rel="noreferrer"
+          >
             <Image
               className="img"
               objectFit="scale-down"
@@ -69,16 +71,21 @@ function Intro() {
 
         <SimpleGrid color="white" className="buttons">
           <Center>
-            <a href="https://github.com/ZEKe125" target="_blank">
+            <a
+              href="https://github.com/ZEKe125"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaGithub className="icon" />
             </a>
             <a
               href="https://www.linkedin.com/in/ezequiel-cuevas99/"
               target="_blank"
+              rel="noreferrer"
             >
               <FaLinkedin className="icon" />
             </a>
-            <a href="mailto:ezelcuevas@gmail.com">
+            <a href="mailto:ezelcuevas@gmail.com" rel="noreferrer">
               <FaEnvelope className="icon" />
             </a>
           </Center>

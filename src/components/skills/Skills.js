@@ -1,8 +1,8 @@
-import { Grid, Text, Code, Box, SimpleGrid, Image, Center, Button } from '@chakra-ui/react';
+import {Text, Code, Box, SimpleGrid, Image, Center } from '@chakra-ui/react';
 import React, { useEffect } from 'react';
 import './skills.css';
 import { Logo } from '../../Logo';
-import { Link } from 'react-router-dom';
+
 // import { useColorMode } from '@chakra-ui/react';
 
 function Skills() {
@@ -21,7 +21,7 @@ function Skills() {
 
         <SimpleGrid columns={2} spacing={5} className="grid">
           <Box>
-            <a href="https://reactjs.org/" target={'_blank'}>
+            <a href="https://reactjs.org/" target={'_blank'} rel="noreferrer">
               <Image
                 className="img"
                 objectFit="scale-down"
@@ -245,13 +245,12 @@ function Skills() {
                 alt="framerMotion"
               />
             </a>
-            
           </Box>
           <Box></Box>
           <Box>
             <Center>
               <a href="/contact">
-                <button >Contact Me</button>
+                <button>Contact Me</button>
               </a>
             </Center>
           </Box>
